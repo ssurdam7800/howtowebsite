@@ -1,0 +1,94 @@
+#header {text-align: center; font-family: Times New Roman; font-size: 120%; color: black; background-color:; letter-spacing: 15px; margin: 0; padding: 10px; background-color:#ddd }
+.vertical-menu {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: times new roman;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.columnn {
+    float: left;
+    color: white;
+}
+.columnn.side {
+    width: 25%;
+}
+.columnn.middle {
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    font-size: 10px;
+}
+body{text-align: center; background-color: #afafaf; margin: 0; font-family: Verdana; padding: 10px;overflow-x: hidden} 
+#outer-container{text-align:left;margin:0 auto 0; width:98%;max-width:900px;min-width:760px;overflow: hidden}
+.headerone {text-align: center; font-family: Verdana; color: black; background-color: #ddd; font-family: Times New Roman; letter-spacing: 2px}
+/* on both */
+
+h2, .full-width {
+  position: relative;
+  margin: 0 -9999rem;
+  padding: .25rem 9999rem;
+  background: #666;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.white {color:white}
+
+.bby {text-align: left}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.colum {
+    float: right;
+    width: 50%;
+}
